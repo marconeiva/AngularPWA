@@ -1,3 +1,10 @@
+section{
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+}
+
+
 /* -- Home Section -------------------------------------*/
 #home{
     background-color: black;
@@ -44,6 +51,7 @@ video{
 .social-icons{
     position: absolute;
     top: 60%;
+    margin-left: 5px;
 }
 
 .social-icons fa-icon{
@@ -51,6 +59,11 @@ video{
     color: white;
     padding: 7.5px 15px;
     cursor: pointer;
+}
+
+.social-icons fa-icon:hover{
+    color: grey;
+    background-color: white;
 }
 /* -- About Section -------------------------------------*/
 /* -- Projects Section -------------------------------------*/
