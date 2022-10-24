@@ -9,12 +9,14 @@ import { environment } from '../environments/environment';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faLinkedin, faCodepen} from '@fortawesome/free-brands-svg-icons';
+import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 
 library.add(faGithub, faLinkedin, faCodepen);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavMenuComponent
   ],
   imports: [
     BrowserModule,
